@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './NavigationComponent.css'; // Importa tu archivo CSS para estilos personalizados
-import { NavLink } from 'react-router-dom';
-import LanguageSelectorComponentComponent from '../LanguageSelectorComponentComponent/LanguageSelectorComponentComponent';
+
 
 const NavigationComponent = () => {
 
@@ -43,9 +42,7 @@ const NavigationComponent = () => {
       
         <Link to='/colecciones' className="nav-link">COLLECTIONS</Link>
         <Link to='/artista' className="nav-link">DIGITAL ART</Link> 
-   { /*<LanguageSelectorComponentComponent></LanguageSelectorComponentComponent>*/ }
-
-
+ 
       </div>
     </div>
   );

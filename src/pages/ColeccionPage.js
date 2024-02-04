@@ -9,7 +9,7 @@ export default function ColeccionPage() {
   return (
     <div className="publicaciones-page colecciones-page">
       <div className="pagina-publicaciones">
-        <h1>COLECCTIONS</h1>
+        <h1>COLLECTIONS</h1>
         <div className="contenedor-flex">
           {/* Primer conjunto */}
           <div className="conjunto">
